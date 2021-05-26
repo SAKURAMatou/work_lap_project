@@ -28,9 +28,9 @@ public class DuplicateKey {
         Random ra = new Random();
         for (int i = 1; i < 11; i++) {
             Record re = new Record();
-            if (i % 2 == 0) {
-                re.setKey("偶数");
-            } else {
+                if (i % 2 == 0) {
+                    re.setKey("偶数");
+                } else {
                 re.setKey("奇数");
             }
             re.setValue(ra.nextInt(100));

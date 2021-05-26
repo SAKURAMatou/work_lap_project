@@ -1,4 +1,4 @@
-package src.main.java.test;
+package src.main.java.test.streamlearn;
 
 import src.main.java.person.Person;
 
